@@ -69,7 +69,7 @@ const SideBar = () => {
                                     </span>
                                     <span className='text'>Admin</span>
                                 </Accordion.Header>
-                                <Accordion.Body> 
+                                {/* <Accordion.Body> 
                                     <ul className='submenu'>
                                         <li>
                                             <Link href="" className='position-relative'>
@@ -174,7 +174,7 @@ const SideBar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </Accordion.Body>
+                                </Accordion.Body> */}
                             </Accordion.Item>
 
                             <Link href="" className='menu-items d-flex align-items-center gap-2'>
@@ -191,7 +191,7 @@ const SideBar = () => {
                                     </span>
                                     <span className='text'>Providers</span>
                                 </Accordion.Header>
-                                <Accordion.Body> 
+                                {/* <Accordion.Body> 
                                     <ul className='submenu'>
                                         <li>
                                             <Link href="" className='position-relative'>
@@ -206,7 +206,7 @@ const SideBar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </Accordion.Body>
+                                </Accordion.Body> */}
                             </Accordion.Item>
                     </div>
                 </div>
@@ -223,7 +223,7 @@ const SideBar = () => {
                                     </span>
                                     <span className='text'>Ride Share</span>
                                 </Accordion.Header>
-                                <Accordion.Body> 
+                                {/* <Accordion.Body> 
                                     <ul className='submenu'>
                                         <li>
                                             <Link href="" className='position-relative'>
@@ -328,7 +328,7 @@ const SideBar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </Accordion.Body>
+                                </Accordion.Body> */}
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
                                 <Accordion.Header className='menu-items d-flex align-items-center gap-2'>
@@ -337,7 +337,7 @@ const SideBar = () => {
                                     </span>
                                     <span className='text'>Bus Ticket</span>
                                 </Accordion.Header>
-                                <Accordion.Body> 
+                                {/* <Accordion.Body> 
                                     <ul className='submenu'>
                                         <li>
                                             <Link href="" className='position-relative'>
@@ -352,7 +352,7 @@ const SideBar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </Accordion.Body>
+                                </Accordion.Body> */}
                             </Accordion.Item>
                             <Accordion.Item eventKey="4">
                                 <Accordion.Header className='menu-items d-flex align-items-center gap-2'>
@@ -361,7 +361,7 @@ const SideBar = () => {
                                     </span>
                                     <span className='text'>Food/Grocery</span>
                                 </Accordion.Header>
-                                <Accordion.Body> 
+                                {/* <Accordion.Body> 
                                     <ul className='submenu'>
                                         <li>
                                             <Link href="" className='position-relative'>
@@ -466,7 +466,7 @@ const SideBar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </Accordion.Body>
+                                </Accordion.Body> */}
                             </Accordion.Item>
                             <Accordion.Item eventKey="5">
                                 <Accordion.Header className='menu-items d-flex align-items-center gap-2'>
@@ -475,7 +475,7 @@ const SideBar = () => {
                                     </span>
                                     <span className='text'>Buy/Sell</span>
                                 </Accordion.Header>
-                                <Accordion.Body> 
+                                {/* <Accordion.Body> 
                                     <ul className='submenu'>
                                         <li>
                                             <Link href="" className='position-relative'>
@@ -490,7 +490,7 @@ const SideBar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </Accordion.Body>
+                                </Accordion.Body> */}
                             </Accordion.Item>
                             <Accordion.Item eventKey="6">
                                 <Accordion.Header className='menu-items d-flex align-items-center gap-2'>
@@ -499,7 +499,7 @@ const SideBar = () => {
                                     </span>
                                     <span className='text'>Squch Stay</span>
                                 </Accordion.Header>
-                                <Accordion.Body> 
+                                {/* <Accordion.Body> 
                                     <ul className='submenu'>
                                         <li>
                                             <Link href="" className='position-relative'>
@@ -514,7 +514,7 @@ const SideBar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </Accordion.Body>
+                                </Accordion.Body> */}
                             </Accordion.Item>
                             <Accordion.Item eventKey="7">
                                 <Accordion.Header className='menu-items d-flex align-items-center gap-2'>
@@ -534,7 +534,61 @@ const SideBar = () => {
                                         <li>
                                             <Link href="" className='position-relative'>
                                                 <span className='cercle-box'></span>
-                                                <span>Bookings</span>
+                                                <span>Events</span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="" className='position-relative'>
+                                                <span className='cercle-box'></span>
+                                                <span>Organiser</span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="" className='position-relative'>
+                                                <span className='cercle-box'></span>
+                                                <span>Gateman</span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="" className='position-relative'>
+                                                <span className='cercle-box'></span>
+                                                <span>Venue</span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="" className='position-relative'>
+                                                <span className='cercle-box'></span>
+                                                <span>Posts</span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="" className='position-relative'>
+                                                <span className='cercle-box'></span>
+                                                <span>Categories</span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="" className='position-relative'>
+                                                <span className='cercle-box'></span>
+                                                <span>Sub-Categories</span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="" className='position-relative'>
+                                                <span className='cercle-box'></span>
+                                                <span>Support Tickets</span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="" className='position-relative'>
+                                                <span className='cercle-box'></span>
+                                                <span>Privacy Policy</span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="" className='position-relative'>
+                                                <span className='cercle-box'></span>
+                                                <span>Terms & Conditions</span>
                                             </Link>
                                         </li>
                                     </ul>
@@ -570,7 +624,7 @@ const SideBar = () => {
                                     </span>
                                     <span className='text'>Manage Gift Cards</span>
                                 </Accordion.Header>
-                                <Accordion.Body> 
+                                {/* <Accordion.Body> 
                                     <ul className='submenu'>
                                         <li>
                                             <Link href="" className='position-relative'>
@@ -591,7 +645,7 @@ const SideBar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </Accordion.Body>
+                                </Accordion.Body> */}
                             </Accordion.Item>
 
                             <Link href="" className='menu-items d-flex align-items-center gap-2'>
@@ -615,6 +669,12 @@ const SideBar = () => {
                                 <span className='text'>News</span>
                             </Link>
 
+                    </div>
+                </div>
+                <div className='side-box'>
+                    <div className='heading'>
+                        <h6>CMS</h6>
+                        <span></span>
                     </div>
                 </div>
                 </Accordion>
