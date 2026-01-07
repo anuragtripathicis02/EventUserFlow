@@ -1,40 +1,48 @@
 'use client'
 import Link from 'next/link'
 import React from 'react'
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import Footer from '@/components/Footer';
-// import FilterTop from './FilterTop';
-// import RideCountries from './RideCountries';
-// import FilterTop from './FilterTop';
-// import RideShareCitiesTable from './RideShareCitiesTable';
+import TopDetailsBox from './TopDetailsBox';
+import PendingVerifications from './PendingVerifications';
+import AdminEarning from './AdminEarning';
+import TopRatedPartners from './TopRatedPartners';
+import RidesChart from './RidesChart';
 
 
 const Home = () => {
   return (
     <div className='dashboard-details'>
-        <div className='dashboard-pages-heading Breadcrumb-sec'>
-            <div className='page-details d-flex align-items-center gap-2'>
-                <Link href="" className="btn-back">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.56951 5.92969L3.49951 11.9997L9.56951 18.0697" stroke="#652669" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M20.5004 12H3.67041" stroke="#652669" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </Link>
-                <div className='left-details-heading'>
-                    <h2>Ride Countries</h2>
-                    <Breadcrumb>
-                        <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-                        <Breadcrumb.Item href="#">
-                            Squch Ride Share
-                        </Breadcrumb.Item>
-                        <Breadcrumb.Item active>Master Countries</Breadcrumb.Item>
-                    </Breadcrumb>
-                </div>
+        <div className='dashboard-pages-heading'>
+            <div className='page-details'>
+               <h2>Dashboard</h2>
             </div>
         </div>
-        <div className='search-filter-sec mt-2'>
-            {/* <FilterTop /> */}
+        <div className='top-dashboard mb-4'>
+          <TopDetailsBox />
         </div>
-        <div className='table-inner-page'>
-           {/* <RideCountries /> */}
+        <div className='bottom-dashboard-box'>
+          <div className='row'>
+            <div className=' col-md-12'>
+                <PendingVerifications />
+            </div>
+            <div className='col-xl-7 col-md-12'>
+              <div className='chart-ride mt-4'>
+                    <AdminEarning />
+              </div>
+              <div className='chart-ride mt-4'>
+                <TopRatedPartners />
+              </div>
+            </div>
+            <div className='col-xl-5 col-md-12'>
+              <div className='cart-box mt-4'>
+                <div className='card-box'>
+                  <RidesChart />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        
         <Footer />
     </div>
   )

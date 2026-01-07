@@ -1835,3 +1835,10 @@ label.file-upload-label span {
 .dropdown-box.dropdown .dropdown-menu a:active {
     background: transparent;
 }
+
+/*****new css for events user*****/
+
+.table-section table.table-text-start tr th, .table-section table.table-text-start tr td {
+    text-align: left;
+}
+
